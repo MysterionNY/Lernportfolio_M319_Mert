@@ -20,7 +20,7 @@ public class Main {
                 mark = scanner.nextDouble();
                 avg += mark;
             }
-            avg /= 3;
+            avg /= tests;
             avg = Math.round(avg * 100.0) / 100.0;
             System.out.println("Your average grade is: " + avg);
             System.out.println("Do you want to enter other grades? Yes or no?");
