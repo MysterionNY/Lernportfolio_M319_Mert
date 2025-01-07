@@ -1,0 +1,141 @@
+[
+  {
+    "name": "Raum 1",
+    "description": "Ein dunkler Raum mit einer einzelnen Kerze.",
+    "isStart": true,
+    "clues": ["Finde die Code Teile, um das Rätsel zu lösen!"],
+    "exits": {
+      "Norden": "Raum 2",
+      "Osten": "Raum 5"
+    }
+  },
+  {
+    "name": "Raum 2",
+    "description": "Dieser Raum ist voller alter Werkzeuge.",
+    "clues": ["Zwischen Hammer und Amboss findest du die Lösung: 2."],
+    "exits": {
+      "Süden": "Raum 1",
+      "Osten": "Raum 3",
+      "Norden": "Raum 6"
+    }
+  },
+  {
+    "name": "Raum 3",
+    "description": "Ein Raum mit einem Schachbrett.",
+    "clues": ["Die Eröffnungsposition einer Sicilian Defense ergibt den ersten Teil des Codes"],
+    "exits": {
+      "Westen": "Raum 2",
+      "Norden": "Raum 4",
+      "Osten": "Raum 7"
+    }
+  },
+  {
+    "name": "Raum 4",
+    "description": "Ein Raum mit einer komischen Statue.",
+    "clues": ["Die Statue zeigt mit der Hand richtung Osten, dort findest du den dritten Teil des Codes."],
+    "exits": {
+      "Süden": "Raum 3",
+      "Osten": "Raum 8"
+    }
+  },
+  {
+    "name": "Raum 5",
+    "description": "Ein Raum voller Bücher.",
+    "clues": [""],
+    "exits": {
+      "Westen": "Raum 1",
+      "Norden": "Raum 7",
+      "Osten": "Raum 6"
+    }
+  },
+  {
+    "name": "Raum 6",
+    "description": "Ein Raum mit einer antiken Uhr.",
+    "clues": [""],
+    "exits": {
+      "Süden": "Raum 5",
+      "Westen": "Raum 2"
+    }
+  },
+  {
+    "name": "Raum 7",
+    "description": "Ein Raum mit einem Globus in der Mitte.",
+    "clues": ["Der Strich welcher sich horizontal auf dem Globus erstreckt, der dritte Buchstabe, ergibt den zweiten Teil des codes."],
+    "exits": {
+      "Westen": "Raum 3",
+      "Süden": "Raum 5",
+      "Osten": "Raum 9"
+    }
+  },
+  {
+    "name": "Raum 8",
+    "description": "Ein Raum mit einem geöffneten Buch und den Zahlen 17 5 12 9 2",
+    "clues": ["Der Durchschnitt dieser Zahlen ergibt den dritten Teil des codes"],
+    "exits": {
+      "Westen": "Raum 4",
+      "Norden": "Raum 10"
+    }
+  },
+  {
+    "name": "Raum 9",
+    "description": "Ein Raum mit einem gigantischen Schachbrett.",
+    "clues": ["Im Westen findest du einen weiteren Teil des codes"],
+    "exits": {
+      "Westen": "Raum 7",
+      "Norden": "Raum 11"
+    }
+  },
+  {
+    "name": "Raum 10",
+    "description": "Ein Raum mit einer antiken Karte.",
+    "clues": ["Finde den Weg zum Globus"],
+    "exits": {
+      "Süden": "Raum 8",
+      "Osten": "Raum 12"
+    }
+  },
+  {
+    "name": "Raum 11",
+    "description": "Die Buchstaben A6 sind an die Wand geschrieben in Rot.",
+    "clues": ["Die Berechnung von Hex zu Dec führt dich zum Ziel. Dies ist dein vierter und letzter Teil des codes"],
+    "exits": {
+      "Süden": "Raum 9",
+      "Norden": "Ausgang"
+    }
+  },
+  {
+    "name": "Raum 12",
+    "description": "Ein Raum mit einem komplizierten Labyrinth.",
+    "clues": [""],
+    "exits": {
+      "Westen": "Raum 10"
+    }
+  },
+  {
+    "name": "Raum 13",
+    "description": "Ein Raum mit einer leeren Leinwand.",
+    "clues": ["In einem Raum befindet sich eine Malung eines codes"],
+    "exits": {
+      "Norden": "Raum 14"
+    }
+  },
+  {
+    "name": "Raum 14",
+    "description": "Ein Raum mit einer antiken Schreibmaschine.",
+    "clues": [""],
+    "exits": {
+      "Süden": "Raum 13",
+      "Norden": "Ausgang"
+    }
+  },
+  {
+    "name": "Ausgang",
+    "description": "Du stehst vor einer schweren Tür. Gib den Code ein:",
+    "isExit": true,
+    "exitCode": "e4u9166",
+    "exits": {
+      "Westen": "Raum 14",
+      "Süden": "Raum 11"
+    }
+  }
+]

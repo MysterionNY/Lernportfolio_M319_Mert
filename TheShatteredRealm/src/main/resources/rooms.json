@@ -1,0 +1,26 @@
+{
+  "rooms": [
+    {
+      "name": "Raum 1",
+      "description": "Dies ist der erste Raum.",
+      "connections": {
+        "Norden": "Raum 2",
+        "Osten": "Raum 3"
+      }
+    },
+    {
+      "name": "Raum 2",
+      "description": "Dies ist der zweite Raum.",
+      "connections": {
+        "Süden": "Raum 1"
+      }
+    },
+    {
+      "name": "Raum 3",
+      "description": "Dies ist der dritte Raum.",
+      "connections": {
+        "Westen": "Raum 1"
+      }
+    }
+  ]
+}
