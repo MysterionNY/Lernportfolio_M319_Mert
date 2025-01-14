@@ -211,7 +211,6 @@ public class EscapeRoomApp extends Application {
         // Mögliche Ausgänge hinzufügen
         Map<String, Room> exits = currentRoom.getExits();
         for (String direction : exits.keySet()) {
-            Room exitRoom = exits.get(direction);
             Rectangle exitRect = new Rectangle(50, 50, Color.LIGHTGREEN);
             Text exitText = new Text(direction);
 

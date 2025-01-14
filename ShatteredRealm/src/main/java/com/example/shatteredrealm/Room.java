@@ -2,9 +2,7 @@ package com.example.shatteredrealm;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 public class Room {
     private String name;
@@ -63,10 +61,6 @@ public class Room {
 
     public String getDescription() {
         return description;
-    }
-
-    public String[] getExitDirections() {
-        return exitDirections;
     }
 
     @Override
